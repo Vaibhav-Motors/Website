@@ -66,9 +66,17 @@
 
     <!-- ===== HERO SECTION ===== -->
     <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-badge reveal">
+    <!-- Background video -->
+    <video autoplay muted loop playsinline class="hero-video">
+        <source src="images/background.mp4" type="video/mp4">
+        <!-- Optional fallback image if video doesn't load -->
+        Your browser does not support the video tag.
+    </video>
+    <!-- Overlay (to keep the dark gradient) -->
+    <div class="hero-overlay"></div>
+    <!-- Content -->
+    <div class="container">
+        <div class="hero-badge reveal">
                     <a href="https://maps.app.goo.gl/uxA6nATNd9HNqKCH7?g_st=ac" target="_blank" class="badge-link">
                         <i class="fas fa-star"></i> Top Rated Auto Repair in Parbhani
                     </a>
@@ -83,9 +91,8 @@
                         Explore Services <i class="fas fa-arrow-right"></i>
                     </a>
                 </div>
-            </div>
-        </div>
-    </section>
+    </div>
+</section>
 
     <!-- ===== LOGO SCROLLER ===== -->
     <div class="logo-container reveal">
